@@ -30,6 +30,7 @@ df=pd.DataFrame(iris.data,columns=iris.feature_names)
 df
 ```
 This code demonstrates how to extract information about the iris dataset, and organize the data into a pandas DataFrame for analysis.
+
 2.**Step-2**
 ```python
 df["target"]=iris.target
@@ -42,6 +43,7 @@ df1=df[50:100]
 df2=df[100:150]
 df0
 ```
+
 3.**Step-3**
 ```python
 import matplotlib.pyplot as plt
