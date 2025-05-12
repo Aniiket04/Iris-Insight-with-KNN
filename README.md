@@ -62,7 +62,6 @@ plt.scatter(df1['sepal length (cm)'],df1['sepal width (cm)'],color='red',marker=
 ```
 
 ### 4. Train/Test Split
-4.1
 ```python
 from sklearn.model_selection import train_test_split
 x=df.drop(['target','flower_name'],axis='columns')
